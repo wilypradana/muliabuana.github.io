@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap");
+.navbar a {
+  color: rgb(255, 255, 255);
+
+  font-family: "Roboto", sans-serif;
+}
+.navbar-brand img {
+  width: 50px;
+  height: 50px;
+}
+
+.navbar {
+  font-size: 15px;
+
+  font-family: "Roboto", sans-serif;
+}
+.navbar ul li a {
+  color: white;
+}
+.navbar .dropdown ul li a {
+  color: rgb(255, 255, 255);
+}
+.navbar .dropdown ul li a:hover {
+  color: rgb(36, 36, 36);
+}
+.utamaBanner {
+  height: 80vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.dropdown-menu {
+  background-color: #5d5a57;
+}
+.banner {
+  height: 40vh;
+  background: url("../eskul/theater.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -30% 40%;
+}
+.konten {
+  font-family: "Roboto", sans-serif;
+}
+.konten .author {
+  font-size: 15px;
+}
+.konten img {
+  width: 400px;
+  height: 300px;
+}
+.konten .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+.lebih {
+  font-family: "Roboto", sans-serif;
+}
+
+.lebih .card .card-body {
+  background-color: #5543b9;
+  color: white;
+}
+.list-unstyled a {
+  text-decoration: none;
+  color: white;
+}
+.share {
+  list-style: none;
+}
+.share a {
+  text-decoration: none;
+  color: rgb(11, 11, 11);
+}
+.list-unstyled img {
+  width: 20px;
+  height: 20px;
+}
+.share img {
+  width: 20px;
+  height: 20px;
+}
+.kaki h4 {
+  color: white;
+}
+.kaki {
+  background-color: #1a1d30;
+}
+/* breakpoint */
+@media only screen and (max-width: 576px) {
+  .banner {
+    height: 40vh;
+    background: url("../eskul/theater.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 30% 40%;
+  }
+  .d-flex {
+    flex-direction: column;
+  }
+  .share {
+    margin-left: -19px;
+  }
+  .Published {
+    margin-left: -8px;
+  }
+  .author {
+    margin-left: -5px;
+  }
+}

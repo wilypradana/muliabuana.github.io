@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@keyframes kanan {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0);
+    transform-origin: 50% 50%;
+  }
+
+  15% {
+    transform: translateY(-30px) rotate(6deg);
+  }
+
+  30% {
+    transform: translateY(15px) rotate(-6deg);
+  }
+
+  45% {
+    transform: translateY(-15px) rotate(3.6deg);
+  }
+
+  60% {
+    transform: translateY(9px) rotate(-2.4deg);
+  }
+
+  75% {
+    transform: translateY(-6px) rotate(1.2deg);
+  }
+}
+@keyframes kiri {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0);
+    transform-origin: 50% 50%;
+  }
+
+  15% {
+    transform: translateY(-30px) rotate(-6deg);
+  }
+
+  30% {
+    transform: translateY(15px) rotate(6deg);
+  }
+
+  45% {
+    transform: translateY(-15px) rotate(-3.6deg);
+  }
+
+  60% {
+    transform: translateY(9px) rotate(2.4deg);
+  }
+
+  75% {
+    transform: translateY(-6px) rotate(-1.2deg);
+  }
+}
+
+/* style */
+
+.homeUtama h2 {
+  font-family: "Aboreto", cursive;
+  color: white;
+  font-weight: 200;
+  font-size: 30px;
+}
+.homeUtama h1 {
+  font-family: "Aboreto", cursive;
+  color: rgb(255, 255, 255);
+}
+
+.navbar-brand img {
+  width: 50px;
+  height: 50px;
+}
+
+.visi {
+  background-color: #1c82ad;
+  color: rgb(18, 13, 13);
+  line-height: 1.8;
+  font-family: "Oxygen", sans-serif;
+}
+
+.navbar {
+  font-size: 15px;
+
+  font-family: "Roboto", sans-serif;
+}
+.navbar ul li a {
+  color: white;
+}
+.navbar .dropdown ul li a {
+  color: rgb(255, 255, 255);
+}
+.navbar .dropdown ul li a:hover {
+  color: rgb(36, 36, 36);
+}
+.utamaBanner {
+  height: 80vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.dropdown-menu {
+  background-color: #5d5a57;
+}
+
+.kontenBanner {
+  border: 1px rgb(91, 96, 94) solid;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  height: 50vh;
+}
+.kontenBanner h1 {
+  color: white;
+  margin-top: 150px;
+}
+.kontenBanner p {
+  color: white;
+  margin-right: 90px;
+}
+.kontenBanner .btn {
+  color: rgb(0, 0, 0);
+  border-radius: 0;
+  margin-left: 420px;
+}
+.kontenBanner .btn:hover {
+  color: rgb(255, 255, 255);
+  border-radius: 0;
+}
+.kartu .card .card-body {
+  background-color: #5543b9;
+  color: white;
+  font-family: "Aboreto", cursive;
+}
+.fasilitas {
+  background-color: #1a1d30;
+}
+.kartu .card .card-body a:hover {
+  background-color: rgb(84, 41, 124);
+}
+.eskul .ada {
+  display: none;
+}
+.eskul {
+  background-color: #87cefa;
+}
+.eskul h1 {
+  color: black;
+}
+.eskul .card .card-body {
+  background-color: #1a1d30;
+  color: white;
+}
+
+.btn.btn-success:hover: {
+  content: "WhatsApp";
+}
+
+.berita {
+  background-color: #1a1d30;
+}
+.berita h1 {
+  color: white;
+}
+
+.blockquote p {
+  color: white;
+  font-family: "Playfair Display", serif;
+}
+.blockquote .disini a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.blockquote .disini a:hover {
+  color: rgb(234, 8, 8);
+}
+.blockquote-footer {
+  color: aquamarine;
+}
+.kontak {
+  background-color: #869ead;
+}
+.kontak h3 {
+  color: rgb(20, 20, 20);
+}
+
+.list-unstyled a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.kontak .isikontak .field-nama input[type="text"] {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgb(242, 255, 0);
+  background-color: none;
+  font-weight: 700;
+  transition: 0.2s;
+}
+.kontak .isikontak .field-nama input[type="text"]:active,
+.kontak .isikontak .field-nama input[type="text"]:focus,
+.kontak .isikontak .field-nama input[type="text"]:hover {
+  outline: none;
+  box-shadow: none;
+  border-bottom-color: rgb(0, 0, 0);
+}
+.kontak .isikontak .field-nama input[type="email"] {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgb(242, 255, 0);
+  background-color: none;
+  font-weight: 700;
+  transition: 0.2s;
+}
+.kontak .isikontak .field-nama input[type="email"]:active,
+.kontak .isikontak .field-nama input[type="email"]:focus,
+.kontak .isikontak .field-nama input[type="email"]:hover {
+  outline: none;
+  box-shadow: none;
+  border-bottom-color: rgb(0, 0, 0);
+}
+.kaki {
+  background-color: #8c98e3;
+}
+/* break point */
+/* mobi */
+@media only screen and (max-width: 576px) {
+  .kontenBanner .btn {
+    color: rgb(0, 0, 0);
+    border-radius: 0;
+    margin-left: 59px;
+  }
+  .kontenBanner .btn:hover {
+    color: rgb(255, 255, 255);
+    border-radius: 0;
+  }
+  .kontenBanner p {
+    color: white;
+    margin-right: 20px;
+  }
+  .utamaBanner {
+    height: 50vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../img/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .kontenBanner {
+    margin-top: -70px;
+    border: 1px rgb(91, 96, 94) solid;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    height: 50vh;
+  }
+
+  .eskul .ilang {
+    display: none;
+  }
+  .eskul .ada {
+    display: block;
+  }
+}
